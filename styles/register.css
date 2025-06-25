@@ -1,0 +1,72 @@
+:root {
+	--color_Yellow: #EDA900;
+	--color_Navy_blue: #1B2A49;
+	--color_text: #404040;
+	--color_card: #40404040;
+	--color_Background: #FFFBFB;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../images/10-Bazaar-of-Kashan.jpg");
+}
+
+.continer__form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    background-color: rgba(242, 242, 242, 0.585);
+    backdrop-filter: blur(6px);
+    width: 460px;
+    height: 600px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.home__logo{
+font-size: 2rem;
+}
+.logo__text__first{
+
+}
+.logo__text__last{
+
+}
+.form_register{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.form_register input[type=text],[type=password],[type=submit]{
+    font-size: 14px;
+    font-family: inherit;
+    width: 280px;
+    height: 34px;
+    border: none;
+    outline: none;
+    background-color: #ffffff63;
+    color: #6c6c6c;
+    padding: 0.4rem;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.form_register input::placeholder{
+    color: #6c6c6c;
+}
+
+.form_register input[type=submit]{
+    background-color: var(--color_Yellow);
+    font-family: "IRANSans Bold";
+    color: #6c6c6c;
+}
