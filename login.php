@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styles/Style.css">
     <link rel="stylesheet" href="styles/register.css">
     <link rel="stylesheet" href="styles/Reset.css">
-    <title>ثبت نام</title>
+    <title>ورود</title>
 </head>
 <body>
     <div class="continer__form">
@@ -14,14 +14,11 @@
             <span class="logo__text__first">کاشان</span>
             <span class="logo__text__last">گرد</span>
           </div>
-          <form class="form_register" action="action_register.php" method="POST">
-            <input type="text" id="reaalname" name="realname" placeholder="نام" required>
+          <form class="form_register" action="action_login.php" method="POST">
             <input type="text" id="username" name="username" placeholder="نام کاربری" required>
-            <input type="password" id="password" name="password" placeholder="رمز عبور" required>
-            <input type="password" id="repassword" name="repassword" placeholder="تکرار رمز عبور" required>
-            <input type="text" id="phone" name="phone" placeholder="موبایل" required>
-            <input class="button__register" type="submit" value="ثبت نام">
-            <a href="login.html" class="login__text">ورود به حساب</a>
+            <input type="password" name="password" id="password" placeholder="رمز عبور" required>
+            <input class="button__register" type="submit" value="ورود">
+            <a href="register.html" class="login__text">ساخت حساب جدید</a>
           </form>
     </div>
 </body>
